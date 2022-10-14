@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install libopenblas-dev python3-dev swig gcc g++ gfortran
+apt install libopenblas-dev python3-dev swig gcc g++ gfortran cmake build-essential
 pip3 install numpy
 git clone https://github.com/sugiyamath/faiss
 cd faiss
